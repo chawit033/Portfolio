@@ -1,0 +1,118 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: blanchedalmond;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: burlywood;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    padding: 0px 5%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li a {
+    margin: 30px;
+    color: #505050;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 8px 10px;
+    transition: all .5s ease;
+    border-radius: 20px;
+}
+
+.navbar ul li a:hover {
+    background-color:black;
+    color: white;
+    box-shadow: 0 0 10px black;
+}
+
+.logo {
+    font-size: 25px;
+    color:rgb(29, 0, 63);
+    font-family: 'Marck Script', cursive;
+}
+
+.active {
+    font-weight: bold;
+    color: #2d2a2a;
+    font-family: 'Merienda', cursive;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-top: 2.5rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.input {
+    padding: 12px;
+    margin: 15px;
+    width: 30%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.headings {
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 60px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+#msg {
+    width: 20%;
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    outline: none;
+}
+
+#send {
+    width: 100%;
+    padding: 12px 40px 12px 40px;
+    margin: 40px 0 0 0;
+    border: none;
+    font-size: 17px;
+    font-family: 'Work Sans', sans-serif;
+   
+}
+
+#send:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
+}
